@@ -37,7 +37,9 @@ $ npm install
 ```
 ### 3. Configure Environment Variables
 configure .env file. You can copy the example .env.example file and rename it to .env
-Then, edit the .env file with your database
+Then, edit the .env file with your database.
+You need to create a database in mysql and add database name in .env file.
+
 
 ### 4. Running the Application
 After configuring the environment variables, you can run the application in different modes:
