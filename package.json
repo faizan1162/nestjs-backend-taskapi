@@ -11,6 +11,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@nestjs/cli": "^11.0.5",
     "@nestjs/typeorm": "^11.0.0"
   },
   "dependencies": {
