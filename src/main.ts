@@ -8,6 +8,6 @@ async function bootstrap() {
     origin: 'http://localhost:3001', // Allow requests from Next.js running on port 3001
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
   });
-  await app.listen(process.env.PORT ?? 3000);
+  await app.listen(process.env.PORT || 8080);
 }
 bootstrap();
